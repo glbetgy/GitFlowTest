@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18510A751D40CE4B003A0563 /* GTUIVC_Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 18510A741D40CE4B003A0563 /* GTUIVC_Register.m */; };
 		3AB968751D4052620012BEDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB968741D4052620012BEDE /* main.m */; };
 		3AB968781D4052620012BEDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB968771D4052620012BEDE /* AppDelegate.m */; };
 		3AB9687B1D4052620012BEDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB9687A1D4052620012BEDE /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18510A731D40CE4B003A0563 /* GTUIVC_Register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTUIVC_Register.h; sourceTree = "<group>"; };
+		18510A741D40CE4B003A0563 /* GTUIVC_Register.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTUIVC_Register.m; sourceTree = "<group>"; };
 		3AB968701D4052620012BEDE /* GitFlowTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitFlowTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AB968741D4052620012BEDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3AB968761D4052620012BEDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				3AB968811D4052620012BEDE /* LaunchScreen.storyboard */,
 				3AB968841D4052620012BEDE /* Info.plist */,
 				3AB968731D4052620012BEDE /* Supporting Files */,
+				18510A731D40CE4B003A0563 /* GTUIVC_Register.h */,
+				18510A741D40CE4B003A0563 /* GTUIVC_Register.m */,
 			);
 			path = GitFlowTest;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			files = (
 				3AB9687B1D4052620012BEDE /* ViewController.m in Sources */,
 				3AB968781D4052620012BEDE /* AppDelegate.m in Sources */,
+				18510A751D40CE4B003A0563 /* GTUIVC_Register.m in Sources */,
 				3AB968751D4052620012BEDE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GitFlowTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kanghua.GitFlowTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GitFlowTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kanghua.GitFlowTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +504,7 @@
 				3AB9689F1D4052620012BEDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AB968A01D4052620012BEDE /* Build configuration list for PBXNativeTarget "GitFlowTestTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +513,7 @@
 				3AB968A21D4052620012BEDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AB968A31D4052620012BEDE /* Build configuration list for PBXNativeTarget "GitFlowTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +522,7 @@
 				3AB968A51D4052620012BEDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
