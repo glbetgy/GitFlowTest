@@ -18,7 +18,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     //我就是我是不一样的烟火
-    //你是个锤子
 }
 
 - (void)didReceiveMemoryWarning {
