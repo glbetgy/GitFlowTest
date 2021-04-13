@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		18510A751D40CE4B003A0563 /* GTUIVC_Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 18510A741D40CE4B003A0563 /* GTUIVC_Register.m */; };
-		18510A7B1D40DC0C003A0563 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18510A7A1D40DC0C003A0563 /* MasterViewController.m */; };
 		3AB968751D4052620012BEDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB968741D4052620012BEDE /* main.m */; };
 		3AB968781D4052620012BEDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB968771D4052620012BEDE /* AppDelegate.m */; };
 		3AB9687B1D4052620012BEDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB9687A1D4052620012BEDE /* ViewController.m */; };
@@ -39,8 +38,6 @@
 /* Begin PBXFileReference section */
 		18510A731D40CE4B003A0563 /* GTUIVC_Register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTUIVC_Register.h; sourceTree = "<group>"; };
 		18510A741D40CE4B003A0563 /* GTUIVC_Register.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTUIVC_Register.m; sourceTree = "<group>"; };
-		18510A791D40DC0C003A0563 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		18510A7A1D40DC0C003A0563 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		3AB968701D4052620012BEDE /* GitFlowTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitFlowTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AB968741D4052620012BEDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3AB968761D4052620012BEDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,8 +84,6 @@
 		3AB968671D4052620012BEDE = {
 			isa = PBXGroup;
 			children = (
-				18510A791D40DC0C003A0563 /* MasterViewController.h */,
-				18510A7A1D40DC0C003A0563 /* MasterViewController.m */,
 				3AB968721D4052620012BEDE /* GitFlowTest */,
 				3AB9688C1D4052620012BEDE /* GitFlowTestTests */,
 				3AB968971D4052620012BEDE /* GitFlowTestUITests */,
@@ -282,7 +277,6 @@
 			files = (
 				3AB9687B1D4052620012BEDE /* ViewController.m in Sources */,
 				3AB968781D4052620012BEDE /* AppDelegate.m in Sources */,
-				18510A7B1D40DC0C003A0563 /* MasterViewController.m in Sources */,
 				18510A751D40CE4B003A0563 /* GTUIVC_Register.m in Sources */,
 				3AB968751D4052620012BEDE /* main.m in Sources */,
 			);
